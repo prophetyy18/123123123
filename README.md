@@ -41,6 +41,19 @@ ChainIDE是世界上最大的在线编译平台之一，它可以支持多链的
 
 然后点击右侧的Compile Storage.sol进行solidity文件的编译，编译成功后会出现下面ABI和bytecode的内容，同时在控制台上会输出Compile contract success。
 
+![](https://github.com/prophetyy18/BSCIDE-/blob/master/picture/Spring%E6%B4%BB%E5%8A%A8%E5%9B%BE4.png)
 
+此时通过点击右侧的Deployment & Interaction进入到部署页面，设置好gas limit(1000000)和gas fee(20)，然后点击Deploy同时在Metamask上确认。
 
+![](https://github.com/prophetyy18/BSCIDE-/blob/master/picture/Spring%E6%B4%BB%E5%8A%A8%E5%9B%BE5.png)
 
+最后，我们要与部署在链上的合约进行一个交互，获取我们自己的钱包地址。
+点击interact-Storage-getAddress打开，然后点击commit与合约进行交互。
+
+![](https://github.com/prophetyy18/BSCIDE-/blob/master/picture/Spring%E6%B4%BB%E5%8A%A8%E5%9B%BE6.png)
+
+在交互完成后，大家根据这个截图，就可以在微信群或者telegram群当中获取奖励啦，我们在活动结束之后会进行统计和发放，感谢大家的参与。
+
+![](https://github.com/prophetyy18/BSCIDE-/blob/master/picture/Spring%E6%B4%BB%E5%8A%A8%E5%9B%BE7.png)
+
+请大家在提交的时候附上自己交互的这张截图，以及获取奖励的钱包地址，谢谢合作~
