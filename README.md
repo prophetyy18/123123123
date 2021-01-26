@@ -23,10 +23,23 @@ ChainIDE是世界上最大的在线编译平台之一，它可以支持多链的
 
 （附文章链接）
 
-在完成了Metamask设置之后，我们可以回到bscide.com的主界面，点击右上角的目录栏，然后点击create project创建一个新的项目。
-
 ![](https://github.com/prophetyy18/BSCIDE-/blob/master/picture/Spring%E6%B4%BB%E5%8A%A8%E5%9B%BE1.png)
 
+在完成了Metamask设置之后，我们可以回到bscide.com的主界面，点击右上角的目录栏，然后点击create project创建一个新的项目。
+
+![](https://github.com/prophetyy18/BSCIDE-/blob/master/picture/Spring%E6%B4%BB%E5%8A%A8%E5%9B%BE2.png)
+
+点击进去后，可以进入到项目当中，点击Storage.sol文件，这是ChainIDE为大家准备的一个非常简单的存证合约，我们在它的基础上进行一些修改，加入红色区域内的代码部分。
+
+```
+    function getAddress() public view returns(address) {
+        return msg.sender;
+    }
+```
+ 
+![](https://github.com/prophetyy18/BSCIDE-/blob/master/picture/Spring%E6%B4%BB%E5%8A%A8%E5%9B%BE3.png)
+
+然后点击右侧的Compile Storage.sol进行solidity文件的编译，编译成功后会出现下面ABI和bytecode的内容，同时在控制台上会输出Compile contract success。
 
 
 
